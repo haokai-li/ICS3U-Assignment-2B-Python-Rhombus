@@ -9,7 +9,7 @@ def main():
     # This function calculate the area and perimeter of the rhombus
 
     # input
-    sides = int(input("Enter the side of the rhombus(cm): "))
+    sides = int(input("Enter the sides of the rhombus(cm): "))
     diagonal = int(input("Enter the diagonal of the rhombus(cm): "))
     another_diagonal = int(input("Enter the another diagonal of the rhombus(cm): "))
     print("")
