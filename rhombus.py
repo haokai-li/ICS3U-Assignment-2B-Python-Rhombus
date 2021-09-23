@@ -11,15 +11,15 @@ def main():
     # input
     sides = int(input("Enter the sides of the rhombus(cm): "))
     diagonal = int(input("Enter the diagonal of the rhombus(cm): "))
-    another_diagonal = int(input("Enter the another diagonal of the rhombus(cm): "))
+    other_diagonal = int(input("Enter the other diagonal of the rhombus(cm): "))
     print("")
 
     # process
-    area = (diagonal * another_diagonal) / 2
+    area = (diagonal * other_diagonal) / 2
     perimeter = 4 * sides
 
     # output
-    print("a = (diagonal x another diagonal) / 2 = {} cm²".format(area))
+    print("a = (diagonal x other diagonal) / 2 = {} cm²".format(area))
     print("p = 4 x sides = {} cm".format(perimeter))
     print("\nDone")
 
