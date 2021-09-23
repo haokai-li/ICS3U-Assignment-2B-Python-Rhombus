@@ -19,7 +19,7 @@ def main():
     perimeter = 4 * sides
 
     # output
-    print("a = (diagonal x anotherdiagonal) / 2 = {} cm²".format(area))
+    print("a = (diagonal x another diagonal) / 2 = {} cm²".format(area))
     print("p = 4 x sides = {} cm".format(perimeter))
     print("\nDone")
 
